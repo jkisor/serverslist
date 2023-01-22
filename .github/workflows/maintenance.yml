@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Maintenance
 
 on:
   workflow_dispatch:
@@ -10,6 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Maintenance
-      uses: ./actions/maintenance
+    - name: Checkout
+      uses: actions/checkout@v3
+    - name: Expire servers
+      uses: ./.github/workflows/actions/expire-servers
+    - name: Create Pull Request
+      uses: peter-evans/create-pull-request@v4
+      with:
+        branch: remove-expired-servers
+        delete-branch: true
+        title: 'Remove expired servers'

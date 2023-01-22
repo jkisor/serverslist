@@ -4,9 +4,10 @@ require 'nokogiri'
 require 'json'
 require 'date'
 
+WORKSPACE_DIR = '/github/workspace'
 MONTHS_UNTIL_EXPIRED = 3
 
-class FetchServers
+class FetchTreeStatsServers
   def call
     response = submit_request
     parse(response)
@@ -30,19 +31,18 @@ class FetchServers
   end
 end
 
-servers = FetchServers.new.call
+servers = FetchTreeStatsServers.new.call
 
 expire_time = DateTime.now.prev_month(MONTHS_UNTIL_EXPIRED)
-
 expired_servers = servers.select { |s| s[:last_seen] <= expire_time}
-expired_server_ids = expired_servers.map { |s| s[:id] }
+# expired_server_ids = expired_servers.map { |s| s[:id] }
+expired_server_ids = ['ea2c553a-11a8-4e9c-a96a-5d32e57c3143'] # TODO remove, this is for debug purposes
 
-puts expired_server_ids.inspect
-response = Net::HTTP.get_response(URI('https://raw.githubusercontent.com/acresources/serverslist/master/Servers.xml'))
-doc = Nokogiri::XML(response.body)
+contents = File.read("#{WORKSPACE_DIR}/Servers.xml")
+doc = Nokogiri::XML(contents)
 
 doc.css("ArrayOfServerItem ServerItem")
   .select { |element| expired_server_ids.include?(element.at_css('id').content) }
   .each(&:remove)
 
-# puts doc.to_s
+File.write("#{WORKSPACE_DIR}/Servers.xml", doc.to_s)
