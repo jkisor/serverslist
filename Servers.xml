@@ -9,21 +9,10 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Development</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/zdQVP7bmjC</discord_url>
   </ServerItem>
-  <ServerItem>
-    <id>ea2c553a-11a8-4e9c-a96a-5d32e57c3143</id>
-    <name>FrostfACE</name>
-    <description>New accounts include lvl 275 starter characters. Retail character restoration also supported.</description>
-    <emu>ACE</emu>
-    <server_host>172.111.230.127</server_host>
-    <server_port>9000</server_port>
-    <type>PvE</type>
-    <status>Development</status>
-    <website_url></website_url>
-    <discord_url></discord_url>
-  </ServerItem>
+  
   <ServerItem>
     <id>3c431416-a5dc-4c15-9d9d-3262b64ed4e0</id>
     <name>Drunkenfell</name>
@@ -32,8 +21,8 @@
     <server_host>df.drunkenfell.com</server_host>
     <server_port>9000</server_port>
     <type>PvE</type>
-    <status></status>
-    <website_url></website_url>
+    <status/>
+    <website_url/>
     <discord_url>https://discord.gg/tHEe7QU</discord_url>
   </ServerItem>
   <ServerItem>
@@ -44,8 +33,8 @@
     <server_host>reefcull.gdleac.com</server_host>
     <server_port>9000</server_port>
     <type>PvE</type>
-    <status></status>
-    <website_url></website_url>
+    <status/>
+    <website_url/>
     <discord_url>https://discord.com/jd3dEJf</discord_url>
   </ServerItem>
   <ServerItem>
@@ -56,8 +45,8 @@
     <server_host>serafino.ddns.net</server_host>
     <server_port>9060</server_port>
     <type>PvE</type>
-    <status></status>
-    <website_url></website_url>
+    <status/>
+    <website_url/>
     <discord_url>https://goo.gl/mUEu6g</discord_url>
   </ServerItem>
   <ServerItem>
@@ -68,8 +57,8 @@
     <server_host>serafino.ddns.net</server_host>
     <server_port>9070</server_port>
     <type>PvP</type>
-    <status></status>
-    <website_url></website_url>
+    <status/>
+    <website_url/>
     <discord_url>https://goo.gl/mUEu6g</discord_url>
   </ServerItem>
   <ServerItem>
@@ -80,8 +69,8 @@
     <server_host>levistras.acportalstorm.com</server_host>
     <server_port>9000</server_port>
     <type>PvE</type>
-    <status></status>
-    <website_url></website_url>
+    <status/>
+    <website_url/>
     <discord_url>https://discord.gg/TtkcWbv</discord_url>
   </ServerItem>
   <ServerItem>
@@ -93,7 +82,7 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/uWUgNv2yDP</discord_url>
   </ServerItem>
   <ServerItem>
@@ -105,7 +94,7 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/nUR4PHe</discord_url>
   </ServerItem>
   <ServerItem>
@@ -117,7 +106,7 @@
     <server_port>9000</server_port>
     <type>PVE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/uhZ3hn7</discord_url>
   </ServerItem>
   <ServerItem>
@@ -177,7 +166,7 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/RQF7HgEZn4</discord_url>
   </ServerItem>
   <ServerItem>
@@ -201,7 +190,7 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/jH7uYyF8gp</discord_url>
   </ServerItem>
     <ServerItem>
@@ -212,8 +201,8 @@
     <server_host>asheronscall.hopto.org</server_host>
     <server_port>9000</server_port>
     <type>PvE</type>
-    <status></status>
-    <website_url></website_url>
+    <status/>
+    <website_url/>
     <discord_url>https://discord.gg/VSFtYXN3v7</discord_url>
   </ServerItem>
   <ServerItem>
@@ -225,7 +214,7 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/snv52pX</discord_url>
   </ServerItem>
    <ServerItem>
@@ -235,9 +224,9 @@
     <emu>GDL</emu>
     <server_host>test.gdleac.com</server_host>
     <server_port>9050</server_port>
-    <type></type>
-    <status></status>
-    <website_url></website_url>
+    <type/>
+    <status/>
+    <website_url/>
     <discord_url>https://discord.gg/jd3dEJf</discord_url>
   </ServerItem>
   <ServerItem>
@@ -273,8 +262,8 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
-    <discord_url></discord_url>
+    <website_url/>
+    <discord_url/>
   </ServerItem>
   <ServerItem>
     <id>0f5cd135-9d46-48d4-abc1-b59f4cde901f</id>
@@ -295,8 +284,8 @@
     <emu>GDLE</emu>
     <server_host>harvestbud.gdleac.com</server_host>
     <server_port>9000</server_port>
-    <type></type>
-    <status></status>
+    <type/>
+    <status/>
     <website_url>gdleac.com</website_url>
     <discord_url>https://discord.gg/jd3dEJf</discord_url>
   </ServerItem>
@@ -307,10 +296,10 @@
     <emu>GDLE</emu>
     <server_host>158.69.54.138</server_host>
     <server_port>9080</server_port>
-    <type></type>
-    <status></status>
+    <type/>
+    <status/>
     <website_url>gdleac.com</website_url>
-    <discord_url></discord_url>
+    <discord_url/>
   </ServerItem>
   <ServerItem>
     <id>0bc928ba-7f03-4052-8436-33fc6612add5</id>
@@ -345,7 +334,7 @@
     <server_port>9000</server_port>
     <type>PvE</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/C9Tu5yUYn2</discord_url>
   </ServerItem>
   <ServerItem>
@@ -357,7 +346,7 @@
     <server_port>9000</server_port>
     <type>PvP</type>
     <status>Stable</status>
-    <website_url></website_url>
+    <website_url/>
     <discord_url>https://discord.gg/GbAtfwNwKj</discord_url>
   </ServerItem>
   <ServerItem>
