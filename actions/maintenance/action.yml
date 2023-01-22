@@ -1,5 +1,0 @@
-name: 'Maintenance'
-description: 'Produces a new Servers.xml with expired servers removed'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
